@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+ header{
+    text-align: center;
+    padding: 20px;
+    background-color: #775c2b;
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: bolder;
+    border-bottom: 10px groove #333;
+ }
+
+
+    main {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+    }  
+    
+  
+.seccion-principal {
+    width: 70%;
+}
+
+
+section {
+    background-color: #f8f8f8;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+section img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #d35400;
+}
+
+
+.texto {
+    flex: 1;
+    text-align: left;
+}
+
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+
+iframe {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #d35400;
+    padding: 10px 20px;
+    margin: 20px auto;
+    width: fit-content;
+    border-radius: 5px;
+    font-weight: bold;
+   margin-left: 20px;
+}
+
+a:hover {
+    background-color: #a84300;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    padding: 20px;
+    background-color: #775c2b;
+    color: whitesmoke;
+}
+
+
+.columna-derecha {
+    width: 28%;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.redes-sociales ul {
+    list-style: none;
+    padding: 0;
+}
+
+.redes-sociales ul li {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.redes-sociales ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.redes-sociales ul li a:hover {
+    color: #d35400;
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 50px;
+ }
+
+
+
+
+
+
+
+
+
